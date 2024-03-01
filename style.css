@@ -3,11 +3,27 @@
     --cor-de-fundo:#FA0303;
     --cor-texto:#FFFFFF;
     --botao-inativo:rgba(250, 3, 3, 0.9761);
-    --cor-de-fundo-linear:rgba(255, 143, 0, 1);
+    --cor-de-fundo-linear: #BD00FF;
     --verde-claro:#6FFF57;
 
 
 }
 body{
     background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
 }
