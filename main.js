@@ -12,8 +12,8 @@ for(let i = 0; i <botoes.length; i++){
     }
 }
 
-const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2024-12-28");
+const contadores = document.querySelectorAll (".contador");
+const tempoObjetivo1 = new Date ("2024-12-22T23:59:59");
 
 const tempos = [tempoObjetivo1]
 
@@ -37,3 +37,4 @@ function calculaTempo(tempoObjetivo){
 
     return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
 }
+
